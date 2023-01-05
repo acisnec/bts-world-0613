@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background: url(bts.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    display: flex;
+    margin-right: 5px;
+    float:left;
+}
+
+.nav li a {
+    display: block;
+    background-color:#171717;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav li a:hover {
+    background-color: #e91e63;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+    top:62px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 150px;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 60px 0;
+    background: #303030;
+}
+
+.price {
+    background: #5c5b5b;
+    padding: 350px 0;
+    text-align: center;
+}
+.Aru {
+      padding: 90px 0;
+    background: #303030;
+}
